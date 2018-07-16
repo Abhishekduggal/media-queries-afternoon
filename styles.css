@@ -1,0 +1,101 @@
+.introduction {
+  background-image: url("https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg");
+  background-repeat: no-repeat;
+  height: calc(100vh - 120px);
+  /* background-size: 300px 100px; */
+}
+
+.navigation-link-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  align-content: space-between;
+  color: cyan;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 800px;
+  font-size: 18px;
+}
+.navigation-companyname {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  align-content: flex-start;
+  color: yellow;
+  font-family: cursive;
+  font-size: 40px;
+}
+
+.navigation-menu {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .navigation-link-container {
+    display: none;
+  }
+  .navigation-menu {
+    display: inline;
+    color: cyan;
+    font-family: cursive;
+    font-size: 30px;
+  }
+}
+
+.centre-section1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  color: cyan;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.centre-section2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  color: cyan;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.centre-section3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  color: whitesmoke
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 17px;
+  font-weight: bold;
+  width: 200px;
+  height: 70px;
+  border: 1px solid black;
+  background-color: yellow;
+}
+
+a:link,
+a:visited {
+  color: (internal value);
+  text-decoration: underline;
+  cursor: progress;
+}
+
+a:link:active,
+a:visited:active {
+  color: (internal value);
+}
